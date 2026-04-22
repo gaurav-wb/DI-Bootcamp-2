@@ -16,5 +16,14 @@
 // infoAboutPerson("Josh", 12, "yellow")
 
 function infoAboutPerson() {
+    console.log("My name is NG, and i'm 20 yrs old. ")
     
 }
+function infoAboutPerson(personName, personAge, personFavoriteColor) {
+    console.log("Your name is " + personName + ", you are " + personAge + " years old, " + "your favorite color is " + personFavoriteColor)
+}
+
+
+
+infoAboutPerson("David", 45, "blue")
+infoAboutPerson("Josh", 45, "yellow")
