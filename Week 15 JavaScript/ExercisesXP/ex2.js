@@ -14,3 +14,7 @@
 // Console.log the tip amount and the final bill (bill + tip).
 
 // Call the calculateTip() function.
+
+function calculateTip() {
+    let billAmount = prompt("Enter amount of the bill")
+}
