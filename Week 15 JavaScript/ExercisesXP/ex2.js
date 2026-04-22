@@ -16,5 +16,16 @@
 // Call the calculateTip() function.
 
 function calculateTip() {
-    let billAmount = prompt("Enter amount of the bill")
+    let billAmount =Number(prompt("Enter amount of the bill")
+    let tipAmount = 0
+    if (billAmount < 50) {
+        let tipAmount = billAmount * 0.2
+    }else if (billAmount >=50 $$ billAmount <= 200) {
+        let tipAmount = billAmount * 0.15 
+    } else (billAmount > 200 ) {
+        let tipAmount = billAmount * 0.1
+    }
+
+    alert("Tip amount: $" + tipAmount);
+    alert("Total Bill: $" + (billAmount + tipAmount))
 }
