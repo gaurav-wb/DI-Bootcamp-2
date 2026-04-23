@@ -32,3 +32,7 @@
 
 // changeEnough(14.11, [2,100,0,0]) => returns false
 // changeEnough(0.75, [0,0,20,5]) => returns true
+
+function changeEnough(itemPrice, amountOfChange) {
+    let amountOfChange = []
+}
