@@ -15,9 +15,13 @@
 function capitalize(str) {
     let even = "";
     let odd = "";
+    //     two empty strings to build results:
+
+    // even → uppercase at even positions
+    // odd → uppercase at odd positions
 
     for (let i = 0; i < str.length; i++) {
-        if (i % 2 === 0) {
+        if (i % 2 === 0) { //checks if position is even
             even += str[i].toUpperCase();
             odd += str[i].toLowerCase();
         } else {

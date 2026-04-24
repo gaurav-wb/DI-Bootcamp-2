@@ -9,17 +9,17 @@
 // const array3 = []; // should return 0
 
 function biggestNumberInArray(arrayNumber) {
-    if (arrayNumber.length === 0) return 0;
+    if (arrayNumber.length === 0) return 0; //if array is empty → no numbers → return 0
 
-    let max = -Infinity;
+    let max = -Infinity; //start with the smallest possible value and ensures any real number will be bigger
 
     for (let item of arrayNumber) {
-        if (typeof item === "number" && item > max) {
-            max = item;
+        if (typeof item === "number" && item > max) { //check 2 things: is it a number? (ignore strings like 'a') is it bigger than current max?
+            max = item; //update max when a bigger number is found
         }
     }
 
-    return max;
+    return max; //return the biggest number found
 }
 // empty array → return 0
 // max = -Infinity → ensures any number is bigger

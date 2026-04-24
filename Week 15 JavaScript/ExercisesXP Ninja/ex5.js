@@ -6,15 +6,15 @@
 // Example list=[1,2,3,3,3,3,4,5] newList = [1,2,3,4,5]
 
 function uniqueArray(arr) {
-    let result = [];
+    let result = []; //empty array to store unique values
 
     for (let item of arr) {
-        if (!result.includes(item)) {
-            result.push(item);
+        if (!result.includes(item)) { // check: “is this item NOT already in result?” → ! means “not”
+            result.push(item); //add item only if it’s not already there
         }
     }
 
-    return result;
+    return result; //return final array with duplicates removed
 }
 
 console.log(uniqueArray([1,2,3,3,3,4,5]));

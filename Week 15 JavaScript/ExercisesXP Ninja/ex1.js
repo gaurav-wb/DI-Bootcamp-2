@@ -4,13 +4,13 @@
 // Console.log all even numbers from 0 to the random number.
 
 let randomNum = Math.floor(Math.random() *100) +1
-// Math.random() → number between 0–0.999
+// Math.random() → number between 0–0.999 → it gives decimal from 0 to 1 
 // * 100 → range 0–99
 // Math.floor(...) → removes decimals
 // + 1 → shifts to 1–100 
 
-for (let i = 0; i <= randomNum; i++) {
-    if (i % 2 === 0) {
+for (let i = 0; i <= randomNum; i++) {  //i <= randomNum → loop until the random number
+    if (i % 2 === 0) {  //% 2 → gives remainder when dividing by 2
         console.log(i)
     }
 }

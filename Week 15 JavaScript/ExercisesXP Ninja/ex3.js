@@ -9,8 +9,11 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome("madam"));
-// .split("") → string → array
-// .reverse() → reverse array
-// .join("") → back to string
+// .split("") → string → array : "madam" → ["m","a","d","a","m"]
+// .reverse() → reverse array → ["m","a","d","a","m"]
+// .join("") → back to string : "madam"
 // compare original vs reversed
-// returns true or false
+// returns true or false :
+// compares original and reversed
+// if same → true
+// if different → false
