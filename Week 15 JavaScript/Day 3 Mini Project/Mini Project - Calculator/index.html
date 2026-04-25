@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            width: 290px;
+            height: 50px;
+            font-size: 20px;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 70px;
+            height: 70px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="display" readonly>
+    <br>
+    <button type="button" name="button" onclick="number(1);">1</button>
+    <button type="button" name="button" onclick="number(2);">2</button>
+    <button type="button" name="button" onclick="number(3);">3</button>
+    <br>
+    <button type="button" name="button" onclick="number(4);">4</button>
+    <button type="button" name="button" onclick="number(5);">5</button>
+    <button type="button" name="button" onclick="number(6);">6</button>
+    <br>
+    <button type="button" name="button" onclick="number(7);">7</button>
+    <button type="button" name="button" onclick="number(8);">8</button>
+    <button type="button" name="button" onclick="number(9);">9</button>
+    <button type="button" name="button" onclick="number(0);">0</button>
+    <br>
+    <button type="button" name="button" onclick="operator('+');">+</button>
+    <button type="button" name="button" onclick="operator('-');">-</button>
+    <button type="button" name="button" onclick="operator('*');">*</button>
+    <button type="button" name="button" onclick="operator('/');">/</button>
+    <button type="button" name="button" onclick="equal();">=</button>
+    <br>
+    <button onclick="clearDisplay()">CLEAR</button>
+    <button oncanplay="resetCalc()" >RESET</button>
+
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
